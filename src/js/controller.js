@@ -143,6 +143,12 @@ const controlAddRecipe = async function (newRecipe) {
     addRecipeView.renderError(err.message);
   }
 };
+
+const newFeature = function () {
+  console.log();
+  ('welcome to the application');
+};
+
 const init = function () {
   //Subscriber
   bookmarksView.addHandlerRender(controlBookmarks);
@@ -153,6 +159,7 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination); // tu možda greška!!!!!!!!!!!!!
   addRecipeView.addHandlerUpload(controlAddRecipe);
   // controlServings();  // tu još nije došao ni jedan recept s API-a
+  newFeature();
 };
 
 init(); // tu se handlea event, makar se sluša u recipeView
