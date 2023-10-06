@@ -45,7 +45,7 @@ export default class View {
         !newEl.isEqualNode(curEl) &&
         newEl.firstChild?.nodeValue.trim() !== ''
       ) {
-        console.log('👀', newEl.firstChild?.nodeValue.trim()); // ovaj cl ruši app bez optional chaininga, nebre pročitati nodelist
+        // console.log('👀', newEl.firstChild?.nodeValue.trim()); // ovaj cl ruši app bez optional chaininga, nebre pročitati nodelist
         // firstChild sadrži tekst koji želimo mijenjati
         curEl.textContent = newEl.textContent;
       }

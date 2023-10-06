@@ -12,7 +12,6 @@ import 'regenerator-runtime/runtime';
 import { async } from 'regenerator-runtime';
 
 ///////////////////////////////////////
-
 if (module.hot) {
   // Parcel sintaksa
   module.hot.accept();
