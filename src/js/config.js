@@ -5,5 +5,5 @@ export const TIMEOUT_SECONDS = 10;
 
 export const RESULTS_PER_PAGE = 10;
 
-export const KEY = `d856df3f-3f63-4ece-b6d6-a799f38d27d1`;
+export const KEY = `3996757f-f8a2-4d31-bba1-516748524e2b`;
 export const MODAL_CLOSE_SEC = 2.5;
